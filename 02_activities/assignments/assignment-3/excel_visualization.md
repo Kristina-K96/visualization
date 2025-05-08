@@ -5,7 +5,7 @@
 ### CaféTO Interventions in the City of Toronto
 <img title="Number of Cafe TO Interventions in the City of Toronto" src="excel.png"> 
 
-> What software did you use to create your data visualization?
+> What software did you use to create your data visualization? <br>
 I used Microsoft Excel to create the bar chart. Excel’s built-in pivot table and chart tools made it easy to summarize and visualize café intervention counts per ward.
 
 > Who is your intended audience? 
