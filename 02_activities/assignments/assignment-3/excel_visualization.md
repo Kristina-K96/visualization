@@ -1,9 +1,9 @@
 # Data Visualization
 
-## Assignment 3: Final Project (Part 1 - Excel Visualization)
+## Assignment 3: Final Project (Part 2 - Excel Visualization)
 
 ### CaféTO Interventions in the City of Toronto
-<img title="Number of Cafe TO Interventions in the City of Toronto" src="Visualization1-BarChart.png"> 
+<img title="Number of Cafe TO Interventions in the City of Toronto" src="excel.png"> 
     
     > What software did you use to create your data visualization?
     I used Microsoft Excel to create the bar chart. Excel’s built-in pivot table and chart tools made it easy to summarize and visualize categorical data like café counts per ward.

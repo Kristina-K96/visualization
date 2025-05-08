@@ -1,10 +1,10 @@
 # Data Visualization
 
-## Assignment 3: Final Project (Part 2 - Python Visualziation)
+## Assignment 3: Final Project (Part 1 - Python Visualziation)
 
 ### CaféTO Interventions in the City of Toronto
 
-<img title="Number of Cafe TO Interventions in the City of Toronto" src="Visualization2-BarChart.png"> 
+<img title="Number of Cafe TO Interventions in the City of Toronto" src="python.png"> 
 
     > What software did you use to create your data visualization?
     I used Python with the pandas, Seaborn, and matplotlib libraries. Pandas handled data wrangling, while Seaborn and matplotlib were used to create and customize the grouped bar chart.
