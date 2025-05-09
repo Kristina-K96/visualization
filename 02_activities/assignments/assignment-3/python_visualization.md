@@ -20,10 +20,9 @@ The visualization shows how different types of CaféTO interventions (e.g., Curb
 
 > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots?
 
-I focused on readability, clarity, and comparability:
+I focused on making sure that the graph was readable and clear. To do this I made the following decisions:
 - Used grouped bars to enable comparison between intervention types within each ward.
-- Chose a distinctive color palette (Seaborn’s Set2) for accessibility and contrast.
-- Added value labels on each bar to show exact counts and reduce reliance on the y-axis.
+- Chose a distinctive colour palette (Seaborn’s colorblind) to make sure the colours of the bars were distinct and colourblind friendly.
 - Labeled axes clearly and rotated x-axis labels for better readability.
     
 > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization?
@@ -32,7 +31,7 @@ The visualization is fully reproducible through Python code. I used a script-bas
 
 > How did you ensure that your data visualization is accessible?
 
-I used a high-contrast, colorblind-friendly palette and included text labels on each bar to improve accessibility for those with visual impairments or difficulty reading axes. The font sizes were also adjusted for legibility. For broader accessibility (e.g., screen readers), the plot could be supplemented with alternative text or exported alongside a descriptive summary.
+I used a high-contrast, colourblind-friendly palette to improve accessibility for those with visual impairments. The font sizes were also adjusted for legibility. For broader accessibility (e.g., screen readers), the plot could be supplemented with alternative text or exported alongside a descriptive summary. I also could have added value labels on each bar to show exact counts and reduce reliance on the y-axis (but I do not know how to do this, yet).
 
 > Who are the individuals and communities who might be impacted by your visualization?
 
@@ -48,7 +47,5 @@ I included only the ward name and intervention type, which are the most relevant
 
 'Underwater labour' for this visualization includes:
 - Collecting and entering the data for the number of and type of CaféTO intervention across Toronto.
-- Cleaning the data, including checking for missing values and standardizing column names.
 - Grouping and aggregating the data properly for plotting.
 - Debugging and adjusting layout issues (e.g., axis label overlap, font sizing).
-- Formatting labels manually with bar_label() to ensure clarity.

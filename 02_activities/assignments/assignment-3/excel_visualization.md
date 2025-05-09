@@ -19,11 +19,7 @@ The main message is that the number of CaféTO installations varies significantl
 
 > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots?
 
-A bar chart was chosen because it clearly compares quantities across categories (in this case, wards). I also added axis labels and a chart title for clarity.
-I considered clarity, order, and comparability in the chart’s design:
-- I labeled each bar with the corresponding count.
-- I added a clear chart title and axis labels.
-- I used a simple color palette to maintain readability and avoid visual clutter.
+A bar chart was chosen because it clearly compares quantities across categories (in this case, wards). To make the comparision easier, I labelled each bar the corresponding count. I also added axis labels and a chart title for clarity. Lastly, I used a simple colour palette (just one colour) to maintain readability and avoid unnecessary visual clutter.
 
 > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization?
 
@@ -32,8 +28,8 @@ Since Excel is not a fully scriptable tool, the visualization is not reproducibl
 > How did you ensure that your data visualization is accessible?
 
 To improve accessibility, I:
-- Used high-contrast colors and a simple font.
-- Included text labels for each bar to reduce reliance on interpreting the x-axis scale.
+- Used a simple colour pallete and font.
+- Included text labels for each bar to reduce reliance on interpreting the y-axis scale.
 - Avoided unnecessary visual effects like 3D charting, which can distort perception. 
 
 > Who are the individuals and communities who might be impacted by your visualization?
