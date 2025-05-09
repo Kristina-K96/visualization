@@ -1,0 +1,58 @@
+# Data Visualization
+
+## Assignment 3: Final Project (Part 2 - Excel Visualization)
+
+### CaféTO Interventions in the City of Toronto
+
+<img title="Number of Cafe TO Interventions in the City of Toronto" src="excel.png"> 
+
+Dataset used:[CaféTO Program](https://open.toronto.ca/dataset/cafeto-curb-lane-parklet-cafe-locations/)
+
+> What software did you use to create your data visualization?
+
+I used Microsoft Excel to create the bar chart. Excel’s built-in pivot table and chart tools made it easy to summarize and visualize café intervention counts per ward.
+
+> Who is your intended audience?
+
+The intended audience includes Toronto city planners, municipal policymakers, BIAs (Business Improvement Areas), and engaged residents who are interested in the distribution of public space for outdoor dining across the city.
+
+> What information or message are you trying to convey with your visualization?
+
+The main message is that the number of CaféTO installations varies significantly across wards. This may reflect differences in commercial density, municipal support, or infrastructure. The chart helps highlight where the program is most active and where it might be underutilized.
+
+> What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots?
+
+A bar chart was chosen because it clearly compares quantities across categories (in this case, wards). To make the comparision easier, I labelled each bar the corresponding count. I also added axis labels and a chart title for clarity. Lastly, I used a simple colour palette (just one colour) to maintain readability and avoid unnecessary visual clutter.
+
+> How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization?
+
+Since Excel is not a fully scriptable tool, the visualization is not reproducible. While I did keep a copy of the raw data and the pivot table I used to group the data to make the bar graph, it requires the invidual reproducing the data to have access to Excel. Additionally, Excel relies on manual input, so exact replication may be difficult without step-by-step documentation. Overall, this will limit scalability and reproducibility, especially for larger or dynamic datasets.
+
+> How did you ensure that your data visualization is accessible?
+
+To improve accessibility, I:
+- Used a simple colour pallete and font.
+- Included text labels for each bar to reduce reliance on interpreting the y-axis scale.
+- Avoided unnecessary visual effects like 3D charting, which can distort perception. 
+
+> Who are the individuals and communities who might be impacted by your visualization?
+
+- Local business owners, who might use this information to advocate for more support in their ward.
+- City officials and planners, who could use the chart to evaluate program equity and reach.
+- Residents, particularly in underrepresented wards, who may question why their neighborhoods lack CaféTO access.
+
+> How did you choose which features of your chosen dataset to include or exclude from your visualization?
+
+I focused only on ward-level counts, excluding details like exact addresses, BIA membership, or café intervention type. This decision was made to keep the visualization clear and comparative across wards. Including more features may have cluttered the chart or required multiple layers of information, better suited to a different format like a map.
+
+> What ‘underwater labour’ contributed to your final data visualization product?
+
+'Underwater labour' for this visualization includes:
+- Collecting and entering the data for the number of and type of CaféTO intervention across Toronto.
+- Exploring and understanding the dataset, including decoding terminology and checking for missing values.
+- Filtering incomplete entries, such as rows missing ward data.
+- Manually creating and formatting pivot tables and bar charts.
+- Iterating design choices (e.g., reordering bars, testing label formats) to improve readability.
+This behind-the-scenes effort was essential to produce a clean, communicative chart.
+
+ 
